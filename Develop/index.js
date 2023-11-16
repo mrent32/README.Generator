@@ -2,6 +2,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const generateMarkDown = require('./utils/generateMarkdown')
+const path = require('path')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -35,16 +36,25 @@ const questions = [
     message: 'Please list how to make contributions',
     name: 'contributions',
 },
-{
-    type:
-}
 ];
 
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile('./newREADME/generated-README.md',)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    inquirer.prompt(questions)
+    .then((responses) =>{
+        console.log('Generating README file')
+        return responses
+        writeToFile('./dist/README.md', generateMarkDown({
+           ...responses
+        }))
+    })
+}
 
 // Function call to initialize app
 init();
