@@ -41,20 +41,29 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('./newREADME/generated-README.md',)
+   return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
 // TODO: Create a function to initialize app
 const init = () => {
     inquirer.prompt(questions)
-    .then((responses) =>{
+    .then((responses) => { 
         console.log('Generating README file')
-        return responses
-        writeToFile('./dist/README.md', generateMarkDown({
-           ...responses
+        writeToFile('./utils', generateMarkDown({
+            ...responses
         }))
     })
+    // .then(responses) 
+    //     writeToFile('./utils/', generateMarkDown({
+    //        ...responses
+           
+    //     }))
+        // .then() 
+        //     fs.readFile('data', 'utf8', (error, data)=>
+        //     error ? console.error(error) : console.log(data)
+//             )
 }
+
 
 // Function call to initialize app
 init();
