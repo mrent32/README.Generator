@@ -36,6 +36,21 @@ const questions = [
     message: 'Please list how to make contributions',
     name: 'contributions',
 },
+{
+    type: 'input',
+    message: 'Please list all technologies used on this project',
+    name: 'technologies',
+},
+{
+    type: 'input',
+    message: 'What is your Github username?',
+    name: 'github'
+}
+{
+    type: 'input',
+    message: 'What is your email?',
+    name: 'email',
+},
 ];
 
 
@@ -49,7 +64,7 @@ const init = () => {
     inquirer.prompt(questions)
     .then((responses) => { 
         console.log('Generating README file')
-        writeToFile('./utils', generateMarkDown({
+        writeToFile('./README.md', generateMarkDown({
             ...responses
         }))
     })
