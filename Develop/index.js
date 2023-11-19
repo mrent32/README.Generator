@@ -8,37 +8,37 @@ const path = require('path')
 const questions = [
 {
     type: 'input',
-    message: 'Please give the application a name',
+    message: 'Please give the application a name.',
     name: 'title',
 },
 {
     type: 'input',
-    message: 'Please list all authors',
+    message: 'Please list all authors.',
     name: 'authors',
 },
 {
     type: 'input',
-    message: 'Please describe the use case of the application',
+    message: 'Please give a description of the application.',
     name: 'description',
 },
 {
     type: 'input',
-    message: 'Please explain installation process',
+    message: 'Please explain installation process.',
     name: 'install',
 },
 {
     type: 'input',
-    message: 'Please describe how to report issues',
+    message: 'Please describe how to report issues.',
     name: 'issues',
 },
 {
     type: 'input',
-    message: 'Please list how to make contributions',
+    message: 'Please list how to make contributions.',
     name: 'contributions',
 },
 {
     type: 'input',
-    message: 'Please list all technologies used on this project',
+    message: 'Please list all technologies used on this project.',
     name: 'technologies',
 },
 {
@@ -68,15 +68,6 @@ const init = () => {
             ...responses
         }))
     })
-    // .then(responses) 
-    //     writeToFile('./utils/', generateMarkDown({
-    //        ...responses
-           
-    //     }))
-        // .then() 
-        //     fs.readFile('data', 'utf8', (error, data)=>
-        //     error ? console.error(error) : console.log(data)
-//             )
 }
 
 
