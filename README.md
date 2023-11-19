@@ -1,7 +1,13 @@
 # README.Generator
 Professional REAMDE Generator 
 ## Table of Contents
-# [description](#description)
+# [Description](#description)
+# [Authors](#authors)
+# [Install](#install)
+# [Issues](#issues)
+# [Contributions](#contributions)
+# [Technologies](#technologies)
+# [Contact_Me](#contact)
 # Authors
 Martin Renteria 
 # Description
