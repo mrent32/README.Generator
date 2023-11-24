@@ -38,6 +38,12 @@ function generateMarkdown(data) {
   ${data.title}
   ## Table of Contents
   ## Authors
+  ## Description
+  ## Install
+  ## Issues
+  ## Contributions
+  ## Technologies
+  ## Questions
   ${data.authors}
   ## Description
   ${data.description}
