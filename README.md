@@ -31,4 +31,7 @@
 
   [Email: mrrenteria0159@gmail.com{{mailto:mrrenteria0159@gmail.com}
 
+  Link to the deployed video of the application 
+  https://www.youtube.com/watch?v=5gTxQDba1W8
+
 
