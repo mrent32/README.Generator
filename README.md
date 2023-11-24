@@ -1,23 +1,28 @@
-# readme.gen
-  ![badge](https://img.shields.io/badge/license-undefined-blue)
+# Professional README generator
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
+   ## License
+    Following License applies
+    [MIT](https://choosealicense.com/licenses/MIT)
+    
   ## Title
-  readme.gen
+  Professional README generator
+  ## Table of Contents
   ## Authors
-  martin renteria
+  Martin Renteria
   ## Description
-  an app to write readme's for you so you can concentrate on developing
+  Generates a README file for your application from the command line 
   ## Install
-  download nodejs, run npm install, run command node index.js
+  download nodejs
   ## Issues
-  contact me
+  contact me via github or email
   ## Contributions
-  contact me
+  go to the repo on github
   ## Technologies
-  js, nodejs, JSON, markdown
+  nodejs, markdown, JSON, js
   ## Questions
   You can contact me via the following links with any questions
   [Github](https://github.com/mrent32)
 
-  [Email: test@testofferson.com]{mailto:test@testofferson.com}
+  [Email: mrrenteria0159@gmail.com{{mailto:mrrenteria0159@gmail.com}
 
 
